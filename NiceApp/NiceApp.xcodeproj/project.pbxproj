@@ -3,27 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		E08191D025CBBE0000F1F7ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08191CF25CBBE0000F1F7ED /* AppDelegate.swift */; };
 		E08191D225CBBE0000F1F7ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08191D125CBBE0000F1F7ED /* SceneDelegate.swift */; };
-		E08191D425CBBE0000F1F7ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08191D325CBBE0000F1F7ED /* ViewController.swift */; };
+		E08191D425CBBE0000F1F7ED /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E08191D325CBBE0000F1F7ED /* MainViewController.swift */; };
 		E08191D725CBBE0000F1F7ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08191D525CBBE0000F1F7ED /* Main.storyboard */; };
 		E08191D925CBBE0200F1F7ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E08191D825CBBE0200F1F7ED /* Assets.xcassets */; };
 		E08191DC25CBBE0200F1F7ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E08191DA25CBBE0200F1F7ED /* LaunchScreen.storyboard */; };
+		E0EDE85925CBC850008A2311 /* 38870-google-logo-effect.json in Resources */ = {isa = PBXBuildFile; fileRef = E0EDE85825CBC850008A2311 /* 38870-google-logo-effect.json */; };
+		F7E68769BADACA4BB645D1B2 /* Pods_NiceApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF7109269DDDD9F192B9B68 /* Pods_NiceApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DF7109269DDDD9F192B9B68 /* Pods_NiceApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiceApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF38AC14F6AE0A7C299C12D /* Pods-NiceApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.release.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.release.xcconfig"; sourceTree = "<group>"; };
+		A3A03646B6BD826C068BD70D /* Pods-NiceApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiceApp.debug.xcconfig"; path = "Target Support Files/Pods-NiceApp/Pods-NiceApp.debug.xcconfig"; sourceTree = "<group>"; };
 		E08191CC25CBBE0000F1F7ED /* NiceApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiceApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E08191CF25CBBE0000F1F7ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E08191D125CBBE0000F1F7ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E08191D325CBBE0000F1F7ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E08191D325CBBE0000F1F7ED /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E08191D625CBBE0000F1F7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E08191D825CBBE0200F1F7ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E08191DB25CBBE0200F1F7ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E08191DD25CBBE0200F1F7ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EDE85825CBC850008A2311 /* 38870-google-logo-effect.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "38870-google-logo-effect.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7E68769BADACA4BB645D1B2 /* Pods_NiceApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AEE686BB7A030B46AF86D1CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A3A03646B6BD826C068BD70D /* Pods-NiceApp.debug.xcconfig */,
+				6CF38AC14F6AE0A7C299C12D /* Pods-NiceApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C8FE90A7702BC360B565F9DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DF7109269DDDD9F192B9B68 /* Pods_NiceApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E08191C325CBBE0000F1F7ED = {
 			isa = PBXGroup;
 			children = (
 				E08191CE25CBBE0000F1F7ED /* NiceApp */,
 				E08191CD25CBBE0000F1F7ED /* Products */,
+				AEE686BB7A030B46AF86D1CB /* Pods */,
+				C8FE90A7702BC360B565F9DF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +82,24 @@
 		E08191CE25CBBE0000F1F7ED /* NiceApp */ = {
 			isa = PBXGroup;
 			children = (
+				E0EDE85825CBC850008A2311 /* 38870-google-logo-effect.json */,
+				E08191E425CBBE1500F1F7ED /* ViewControllers */,
 				E08191CF25CBBE0000F1F7ED /* AppDelegate.swift */,
 				E08191D125CBBE0000F1F7ED /* SceneDelegate.swift */,
-				E08191D325CBBE0000F1F7ED /* ViewController.swift */,
 				E08191D525CBBE0000F1F7ED /* Main.storyboard */,
 				E08191D825CBBE0200F1F7ED /* Assets.xcassets */,
 				E08191DA25CBBE0200F1F7ED /* LaunchScreen.storyboard */,
 				E08191DD25CBBE0200F1F7ED /* Info.plist */,
 			);
 			path = NiceApp;
+			sourceTree = "<group>";
+		};
+		E08191E425CBBE1500F1F7ED /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E08191D325CBBE0000F1F7ED /* MainViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +109,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E08191E025CBBE0200F1F7ED /* Build configuration list for PBXNativeTarget "NiceApp" */;
 			buildPhases = (
+				77E6D2921747CD4F7A5BF57D /* [CP] Check Pods Manifest.lock */,
 				E08191C825CBBE0000F1F7ED /* Sources */,
 				E08191C925CBBE0000F1F7ED /* Frameworks */,
 				E08191CA25CBBE0000F1F7ED /* Resources */,
+				ECABA9DE17D9418F952A5829 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E08191DC25CBBE0200F1F7ED /* LaunchScreen.storyboard in Resources */,
+				E0EDE85925CBC850008A2311 /* 38870-google-logo-effect.json in Resources */,
 				E08191D925CBBE0200F1F7ED /* Assets.xcassets in Resources */,
 				E08191D725CBBE0000F1F7ED /* Main.storyboard in Resources */,
 			);
@@ -132,12 +170,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		77E6D2921747CD4F7A5BF57D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiceApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECABA9DE17D9418F952A5829 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiceApp/Pods-NiceApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E08191C825CBBE0000F1F7ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E08191D425CBBE0000F1F7ED /* ViewController.swift in Sources */,
+				E08191D425CBBE0000F1F7ED /* MainViewController.swift in Sources */,
 				E08191D025CBBE0000F1F7ED /* AppDelegate.swift in Sources */,
 				E08191D225CBBE0000F1F7ED /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +363,7 @@
 		};
 		E08191E125CBBE0200F1F7ED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3A03646B6BD826C068BD70D /* Pods-NiceApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +383,7 @@
 		};
 		E08191E225CBBE0200F1F7ED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF38AC14F6AE0A7C299C12D /* Pods-NiceApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
