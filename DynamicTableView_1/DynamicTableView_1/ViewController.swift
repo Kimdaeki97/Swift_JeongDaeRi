@@ -66,6 +66,7 @@ extension ViewController: UITableViewDataSource {
         return self.contentArray.count
     }
     
+    // 각 셀에 대한 설정
     // 드래그를 할 때마다 cellForRowAt를 호출
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
