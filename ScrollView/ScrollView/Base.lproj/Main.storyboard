@@ -20,17 +20,30 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="1456"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="la2-PB-yNO" userLabel="ContainerView">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1967.6666666666667"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="823"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEK-Rc-ClZ">
-                                                <rect key="frame" x="10" y="10" width="394" height="1947.6666666666667"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="제품리뷰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEK-Rc-ClZ">
+                                                <rect key="frame" x="10" y="9.9999999999999982" width="59" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HwV-Mr-ZaZ">
+                                                <rect key="frame" x="10" y="38.333333333333329" width="394" height="243.66666666666669"/>
+                                                <mutableString key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="스크롤 뷰" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TaT-Lu-QdJ">
+                                                <rect key="frame" x="10" y="297" width="63" height="21"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Nx-fp-Oge">
+                                                <rect key="frame" x="10" y="326" width="393.66666666666669" height="487"/>
                                                 <mutableString key="text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -40,10 +53,19 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="3Nx-fp-Oge" secondAttribute="bottom" constant="10" id="2Tx-aF-KlO"/>
+                                            <constraint firstItem="TaT-Lu-QdJ" firstAttribute="leading" secondItem="la2-PB-yNO" secondAttribute="leading" constant="10" id="3xG-95-DOi"/>
                                             <constraint firstItem="DEK-Rc-ClZ" firstAttribute="top" secondItem="la2-PB-yNO" secondAttribute="top" constant="10" id="77I-EW-9m8"/>
-                                            <constraint firstAttribute="trailing" secondItem="DEK-Rc-ClZ" secondAttribute="trailing" constant="10" id="A5e-aL-EcP"/>
+                                            <constraint firstItem="TaT-Lu-QdJ" firstAttribute="top" secondItem="HwV-Mr-ZaZ" secondAttribute="bottom" constant="15" id="8pE-lA-hb5"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="DEK-Rc-ClZ" secondAttribute="trailing" constant="10" id="A5e-aL-EcP"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="3Nx-fp-Oge" secondAttribute="trailing" constant="10" id="Alm-tl-eJD"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="TaT-Lu-QdJ" secondAttribute="trailing" constant="10" id="BZJ-Hb-Edr"/>
+                                            <constraint firstItem="HwV-Mr-ZaZ" firstAttribute="top" secondItem="DEK-Rc-ClZ" secondAttribute="bottom" constant="8" id="Kvp-2j-JKh"/>
+                                            <constraint firstItem="3Nx-fp-Oge" firstAttribute="top" secondItem="TaT-Lu-QdJ" secondAttribute="bottom" constant="8" id="QOV-dw-zXn"/>
                                             <constraint firstItem="DEK-Rc-ClZ" firstAttribute="leading" secondItem="la2-PB-yNO" secondAttribute="leading" constant="10" id="W9s-AP-z7B"/>
-                                            <constraint firstAttribute="bottom" secondItem="DEK-Rc-ClZ" secondAttribute="bottom" constant="10" id="t6X-4w-gUA"/>
+                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="HwV-Mr-ZaZ" secondAttribute="trailing" constant="10" id="eaz-Xs-eIK"/>
+                                            <constraint firstItem="HwV-Mr-ZaZ" firstAttribute="leading" secondItem="la2-PB-yNO" secondAttribute="leading" constant="10" id="mU4-oy-kAN"/>
+                                            <constraint firstItem="3Nx-fp-Oge" firstAttribute="leading" secondItem="la2-PB-yNO" secondAttribute="leading" constant="10" id="uaC-xZ-vi1"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -71,7 +93,7 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="79.6875"/>
+            <point key="canvasLocation" x="136.92307692307691" y="79.620853080568722"/>
         </scene>
     </scenes>
     <resources>
