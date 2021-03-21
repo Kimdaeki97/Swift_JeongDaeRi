@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MyTableVC: UIViewController {
     
     @IBOutlet var myTableView: UITableView!
     
@@ -55,11 +55,11 @@ class ViewController: UIViewController {
     
 }
 
-extension ViewController: UITableViewDelegate {
+extension MyTableVC: UITableViewDelegate {
     
 }
 
-extension ViewController: UITableViewDataSource {
+extension MyTableVC: UITableViewDataSource {
     
     // 테이블 뷰 셀의 갯수
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
