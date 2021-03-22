@@ -75,7 +75,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="58D-nb-gMb">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MyCollectionViewCell" id="58D-nb-gMb" customClass="MyCollectionViewCell" customModule="DynamicTableView_1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="82" height="85"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="aow-e7-wk5" customClass="MyCollectionViewCell" customModule="DynamicTableView_1" customModuleProvider="target">
@@ -105,6 +105,10 @@
                                                 <constraint firstItem="nwB-nv-Jk7" firstAttribute="centerX" secondItem="aow-e7-wk5" secondAttribute="centerX" id="xlS-ah-28K"/>
                                             </constraints>
                                         </collectionViewCellContentView>
+                                        <connections>
+                                            <outlet property="profileImg" destination="nwB-nv-Jk7" id="nFe-O5-MA0"/>
+                                            <outlet property="profileLabel" destination="n6G-fO-9i9" id="uHD-Gc-Ljo"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -129,6 +133,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ad0-UW-QSr"/>
+                    <connections>
+                        <outlet property="myCollectionView" destination="om1-mh-ty4" id="RFb-bN-Uax"/>
+                        <outlet property="mySegmentControl" destination="PJT-rd-n83" id="Uzc-Gz-xhh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="QwW-y7-UPS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
