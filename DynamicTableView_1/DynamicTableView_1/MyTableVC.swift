@@ -34,7 +34,7 @@ class MyTableVC: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        // 셀 리소스 파일 가져오기
+        // 셀 리소스 파일 가져오기 
         // let myTableViewCellNib = UINib(nibName: "MyTableViewCell", bundle: <#T##Bundle?#>)
         let myTableViewCellNib = UINib(nibName: String(describing: MyTableViewCell.self), bundle: nil)
         
@@ -77,3 +77,5 @@ extension MyTableVC: UITableViewDataSource {
         return cell
     }
 }
+
+
