@@ -46,16 +46,21 @@ extension MyCollectionVC: UICollectionViewDataSource {
         print("cellId : \(cellId)")
         
         // 셀의 인스턴스
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "myCollectionViewCell", for: indexPath) as! MyCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! MyCollectionViewCell
         
         cell.imageName = self.systemImageNameArray[indexPath.item]
-            
-        // 데이터에 따른 셀 UI 변경
-        // 이미지에 대한 설정
+        
+//        cell.contentView.backgroundColor = #colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1)
+//        cell.contentView.layer.cornerRadius = 8
+//        cell.contentView.layer.borderWidth = 1
+//        cell.contentView.layer.borderColor = #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)
+//
+//         데이터에 따른 셀 UI 변경
+//         이미지에 대한 설정
 //        cell.profileImg.image = UIImage(systemName: self.systemImageNameArray[indexPath.item])
 //        // 라벨 설정
 //        cell.profileLabel.text = self.systemImageNameArray[indexPath.item]
-        
+//        
         return cell
     }
     

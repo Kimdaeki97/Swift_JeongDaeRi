@@ -21,4 +21,13 @@ class MyCollectionViewCell: UICollectionViewCell {
             self.profileLabel.text = imageName
         }
     }
-}
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        print("MyCollectionViewCell - awakeFromNib() called")
+        contentView.backgroundColor = #colorLiteral(red: 0.9764705896, green: 0.850980401, blue: 0.5490196347, alpha: 1)
+        contentView.layer.cornerRadius = 8
+        contentView.layer.borderWidth = 1
+        contentView.layer.borderColor = #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)
+    }
+}    
