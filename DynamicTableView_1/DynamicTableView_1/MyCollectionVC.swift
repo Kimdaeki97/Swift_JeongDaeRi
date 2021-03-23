@@ -26,6 +26,15 @@ class MyCollectionVC: UIViewController {
         myCollectionView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         myCollectionView.dataSource = self
         myCollectionView.delegate = self
+        
+        // 사용할 콜렉션 뷰 셀을 등록
+        // 닙 파일을 가져온다
+        let myCustomCollectionViewCellNib = UINib(nibName: String(describing:
+            MyCustomCollectionViewCell.self), bundle: nil)
+        
+        // 가져온 닙 파일로 콜렉션뷰의 셀로 등록한다.
+        self.myCollectionView.register(myCustomCollectionViewCellNib,
+                                       forCellWithReuseIdentifier: String(describing: MyCustomCollectionViewCell.self))
     }
     
 }
@@ -42,11 +51,12 @@ extension MyCollectionVC: UICollectionViewDataSource {
     // 각 콜렉션 뷰 셀에 대한 설정
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        let cellId = String(describing: MyCollectionViewCell.self)
-        print("cellId : \(cellId)")
+//        let cellId = String(describing: MyCollectionViewCell.self)
+//        print("cellId : \(cellId)")
         
         // 셀의 인스턴스
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! MyCollectionViewCell
+//        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellId, for: indexPath) as! MyCollectionViewCell
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: String(describing: MyCustomCollectionViewCell.self), for: indexPath) as! MyCustomCollectionViewCell
         
         cell.imageName = self.systemImageNameArray[indexPath.item]
         
@@ -60,7 +70,7 @@ extension MyCollectionVC: UICollectionViewDataSource {
 //        cell.profileImg.image = UIImage(systemName: self.systemImageNameArray[indexPath.item])
 //        // 라벨 설정
 //        cell.profileLabel.text = self.systemImageNameArray[indexPath.item]
-//        
+//
         return cell
     }
     
