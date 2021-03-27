@@ -8,6 +8,9 @@
 import Foundation
 import UIKit
 
+// 셀의 속성들을 정리해놓은 VC
+// VC에서 as!, describing 뒤에 MyCustomCollectionViewCell을 호출
+
 class MyCustomCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet var ProfileImg: UIImageView!
