@@ -17,7 +17,7 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ano-a8-NYF">
-                        <rect key="frame" x="20" y="56" width="220" height="99"/>
+                        <rect key="frame" x="109.5" y="56" width="41.5" height="99"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -34,7 +34,7 @@
                     <constraint firstAttribute="bottom" secondItem="ano-a8-NYF" secondAttribute="bottom" constant="8" id="26C-sr-7CD"/>
                     <constraint firstItem="PYf-Z1-x25" firstAttribute="centerX" secondItem="I8s-Wm-k3x" secondAttribute="centerX" id="2Ww-yV-LW4"/>
                     <constraint firstItem="ano-a8-NYF" firstAttribute="centerX" secondItem="I8s-Wm-k3x" secondAttribute="centerX" id="ISc-6u-1rB"/>
-                    <constraint firstItem="ano-a8-NYF" firstAttribute="leading" secondItem="I8s-Wm-k3x" secondAttribute="leading" constant="20" id="PlZ-T9-O6i"/>
+                    <constraint firstItem="ano-a8-NYF" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="I8s-Wm-k3x" secondAttribute="leading" constant="20" id="PlZ-T9-O6i"/>
                     <constraint firstItem="ano-a8-NYF" firstAttribute="top" secondItem="PYf-Z1-x25" secondAttribute="bottom" constant="8" id="YWq-8i-JTT"/>
                     <constraint firstItem="PYf-Z1-x25" firstAttribute="top" secondItem="I8s-Wm-k3x" secondAttribute="top" constant="8" id="xie-bS-TJw"/>
                 </constraints>
