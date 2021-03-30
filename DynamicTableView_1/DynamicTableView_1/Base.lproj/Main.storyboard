@@ -115,9 +115,13 @@
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="PJT-rd-n83">
                                 <rect key="frame" x="20" y="108" width="350" height="32"/>
                                 <segments>
-                                    <segment title="First"/>
-                                    <segment title="Second"/>
+                                    <segment title="" image="list.dash" catalog="system"/>
+                                    <segment title="" image="square.grid.2x2.fill" catalog="system"/>
+                                    <segment title="" image="square.grid.3x2.fill" catalog="system"/>
                                 </segments>
+                                <connections>
+                                    <action selector="onCollectionViewTypeChanged:" destination="amo-FS-r44" eventType="valueChanged" id="HXk-cg-jbh"/>
+                                </connections>
                             </segmentedControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6hk-sd-yEi"/>
@@ -193,6 +197,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="list.dash" catalog="system" width="128" height="85"/>
+        <image name="square.grid.2x2.fill" catalog="system" width="128" height="114"/>
+        <image name="square.grid.3x2.fill" catalog="system" width="128" height="80"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
